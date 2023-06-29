@@ -5,18 +5,23 @@ function cardsItemsLarge(items){
         let card = document.createElement("div");
         card.className = "card";
         card.innerHTML = `<div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="${item.img}" class="img-fluid rounded-start" alt="${item.name}" style="max-width: 150px;">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                            <h5 class="card-title">${item.name}</h5>
-                            <p class="card-desc">${item.description}</p>
-                            <p class="card-price"><small class="text-body-secondary">AR$${item.price}</small></p>
+                        <table>
+                        <tr>
+                            <td>
+                                <img src="${item.img}" class="img-fluid rounded-start" alt="${item.name}" style="max-width: 150px;">
+                            </td>
+                            <td>
+                                <h5 class="card-title">${item.name}</h5>
+                                <p class="card-desc">${item.description}</p>
+                                <p class="card-price"><small class="text-body-secondary">AR$${item.price}</small></p>
+                            <td>
+                        </tr>
+                        <tfoot> 
+                        <tr>   
                             <a href="index.html">Back</a>
-                            </div>
-                        </div>
+                        </tr>
+                        </tfoot>
+                        </table>
                         </div>
                     </div>`
             div.append(card);
