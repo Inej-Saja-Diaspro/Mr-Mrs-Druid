@@ -14,6 +14,7 @@ function cardsItemsLarge(items){
                             <h5 class="card-title">${item.name}</h5>
                             <p class="card-desc">${item.description}</p>
                             <p class="card-price"><small class="text-body-secondary">AR$${item.price}</small></p>
+                            <a href="index.html">Back</a>
                             </div>
                         </div>
                         </div>
