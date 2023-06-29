@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Test</title>
+        <title>Mr. Mrs. Tailor</title>
         <meta charset="UTF-8">
         <link rel="icon" href="https://user-images.githubusercontent.com/114262373/198164726-f88eb98c-c54d-4efa-a75c-d080c950c447.png" type="image/png">
-        <meta name="vieport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Aku's cosplays webpage">
         <meta name="author" content="Saja">
         <link rel="stylesheet" href="style.css">
@@ -12,10 +12,15 @@
     <body>
         <div class="headers">
             <h2>Mr. Mrs. Tailor</h2><br>
-            <h3>Cosplay Workshop</h3>
+            <h3 id="subtitle"></h3><br>
+            <h4 id="description"></h4>
+        </div>
+        <div>
+            <button onclick="changeLanguage('en')">English</button>
+            <button onclick="changeLanguage('es')">Español</button>
         </div>
         <div class="test">
-            <p>Items in stock</p>
+            <p id="stock"></p>
         </div>
         <div class="items">
             <img src="https://via.placeholder.com/150">
@@ -28,5 +33,6 @@
             <img src="https://via.placeholder.com/150">
             <img src="https://via.placeholder.com/150"><br>
         </div>
+    <script src="language.js"></script>
     </body>
 </html>
