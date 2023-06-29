@@ -3,7 +3,7 @@ const items = [
     id: 001,
     name: "Large Skirt (Black)",
     img: "https://user-images.githubusercontent.com/114262373/248826569-b42bce12-ed6b-462d-bd12-18665dc1d606.jpeg",
-    description: "Large black flared skirt with pockets, insides red, decorated with red filigree at the bottom. It has gothic romantic touches and victorian inspiration.",
+    description: "Large black flared skirt with pockets, insides red, decorated with red filigree at the bottom. Aimed at people looking to express themselves their own way. It has gothic romantic touches and victorian inspiration.",
     price: 10.000,
   },
   {
