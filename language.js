@@ -1,4 +1,4 @@
-var currentLanguage = 'en';
+let currentLanguage = 'en';
         
         function changeLanguage(language) {
             currentLanguage = language;
@@ -8,7 +8,7 @@ var currentLanguage = 'en';
         function loadLanguageData() {
             // Load language-specific data based on the currentLanguage
             
-            var translations = {
+            let translations = {
                 en: {
                     subtitle: 'Cosplay & clothing Workshop',
                     description: 'I realize dreams',
