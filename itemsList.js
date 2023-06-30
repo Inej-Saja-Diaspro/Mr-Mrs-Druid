@@ -2,8 +2,10 @@ const items = [
   {
     id: 1,
     name: "Large Skirt (Black)",
+    nameEs: "Pollera larga (negro)",
     img: "https://user-images.githubusercontent.com/114262373/248826569-b42bce12-ed6b-462d-bd12-18665dc1d606.jpeg",
     description: "Large black flared skirt with pockets, insides red, decorated with red filigree at the bottom. Aimed at people looking to express themselves their own way. It has gothic romantic touches and victorian inspiration.",
+    descriptionEs: "Yo diría que es una pollera campana negra con bolsillos rojos, decorada con filigrina roja en en el borde. Apuntada hacía gente que busca expresarse a su manera. Tiene toques románticos, góticos, y muy leve inspiración victorianos.",
     price: "10.000",
   },
   {
