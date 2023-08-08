@@ -24,6 +24,39 @@ function cardsItemsLarge(items) {
                 <p class="card-price"><small class="text-body-secondary">AR$${item.price}</small></p>
               </td>
             </tr>
+            <tr>
+              <td>
+                <img src="${item.img2}" style="max-width: 150px;">
+              </td>
+              <td>
+                <img src="${item.img3}" style="max-width: 150px;">
+              </td>
+              <td>
+                <img src="${item.img4}" style="max-width: 150px;">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="${item.img5}" style="max-width: 150px;">
+              </td>
+              <td>
+                <img src="${item.img6}" style="max-width: 150px;">
+              </td>
+              <td>
+                <img src="${item.img7}" style="max-width: 150px;">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="${item.img8}" style="max-width: 150px;">
+              </td>
+              <td>
+                <img src="${item.img9}" style="max-width: 150px;">
+              </td>
+              <td>
+                <img src="${item.img10}" style="max-width: 150px;">
+              </td>
+            </tr>
             <tfoot> 
               <tr>   
                 <td colspan="2">

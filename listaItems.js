@@ -2,7 +2,7 @@ const itemsEs = [
   {
     id: 1,
     nameEs: "Pollera larga (negro)",
-    img: "https://user-images.githubusercontent.com/114262373/248826569-b42bce12-ed6b-462d-bd12-18665dc1d606.jpeg",
+    img: "https://user-images.githubusercontent.com/114262373/259213457-45c69a5c-ceb5-43df-bc0d-10505e2f3042.jpeg",
     descriptionEs: "Yo diría que es una pollera campana negra con bolsillos rojos, decorada con filigrina roja en en el borde. Apuntada hacía gente que busca expresarse a su manera. Tiene toques románticos, góticos, y muy leve inspiración victorianos.",
     price: 10.000,
   },
