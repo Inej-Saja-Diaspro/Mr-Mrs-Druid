@@ -24,44 +24,48 @@ function cardsItemsLarge(items) {
                 <p class="card-price"><small class="text-body-secondary">AR$${item.price}</small></p>
               </td>
             </tr>
+            </table>
+            <table>
             <tr>
               <td>
-                <img src="${item.img2}" style="max-width: 150px;">
+                <img src="${item.img2}" style="max-width: 200px;">
               </td>
               <td>
-                <img src="${item.img3}" style="max-width: 150px;">
+                <img src="${item.img3}" style="max-width: 200px;">
               </td>
               <td>
-                <img src="${item.img4}" style="max-width: 150px;">
+                <img src="${item.img4}" style="max-width: 200px;">
               </td>
             </tr>
             <tr>
               <td>
-                <img src="${item.img5}" style="max-width: 150px;">
+                <img src="${item.img5}" style="max-width: 200px;">
               </td>
               <td>
-                <img src="${item.img6}" style="max-width: 150px;">
+                <img src="${item.img6}" style="max-width: 200px;">
               </td>
               <td>
-                <img src="${item.img7}" style="max-width: 150px;">
+                <img src="${item.img7}" style="max-width: 200px;">
               </td>
             </tr>
             <tr>
               <td>
-                <img src="${item.img8}" style="max-width: 150px;">
+                <img src="${item.img8}" style="max-width: 200px;">
               </td>
               <td>
-                <img src="${item.img9}" style="max-width: 150px;">
+                <img src="${item.img9}" style="max-width: 200px;">
               </td>
               <td>
-                <img src="${item.img10}" style="max-width: 150px;">
+                <img src="${item.img10}" style="max-width: 200px;">
               </td>
             </tr>
             <tfoot> 
-              <tr>   
-                <td colspan="2">
+              <tr>  
+                <td></td> 
+                <td>
                   <a href="index.html">Back</a>
                 </td>
+                <td></td>
               </tr>
             </tfoot>
           </table>
