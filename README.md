@@ -1,4 +1,4 @@
-# Mr-Mrs-Tailor
+# Mr-Mrs-Druid
 Aku's webpage (beta, to be undeployed)
 
 # Purpose
