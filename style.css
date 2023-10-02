@@ -1,5 +1,6 @@
 body {
     background-image: url("https://user-images.githubusercontent.com/114262373/272102689-f6b5bf80-cdb7-468e-84a3-f3bc26ba3880.jpg");
+    background-position-x: center;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
